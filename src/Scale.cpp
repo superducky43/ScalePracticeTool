@@ -1,4 +1,5 @@
 #include "Scale.h"
+#include "json.hpp"
 
 Scale::Scale()
 {
