@@ -1,7 +1,19 @@
 #include <iostream>
+#include "Scale.h"
+#include "Util.h"
+
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!" << std::endl;
-    return 0;
+    Util util;
+    cout << "Scale practice tool" << endl;
+    cout << "-------------------" << endl;
+    cout << "1) Generate random scale" << endl;
+    cout << "2) Scale dictionary" << endl;
+
+    int input = util.getInputInt();
+
+
+    return 0; 
 }
