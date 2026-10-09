@@ -14,6 +14,7 @@ int main()
 
     int input = util.getInputInt();
 
+    cout << "Helloo testt from PC" << endl;
 
     return 0; 
 }
