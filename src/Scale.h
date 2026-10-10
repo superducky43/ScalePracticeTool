@@ -10,7 +10,7 @@ class Scale
         Scale();
         Scale(string name, string root);
     private:
-        vector<string> formula;
+        vector<int> formula;
         string name;
         string root;
 };

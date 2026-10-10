@@ -11,6 +11,7 @@ class Note
     public:
         void operator++();        
         void operator--();
+
         int getValue();
         string getName();
 };

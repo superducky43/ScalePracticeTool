@@ -25,4 +25,3 @@ void Note::operator--()
         this->value = 12;
     }
 };
-
