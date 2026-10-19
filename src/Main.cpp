@@ -13,6 +13,12 @@ int main()
 
     int input = Util::getInputInt();
 
+    if (input == 1)
+    {
+        Scale scale;
+        scale.generateRandom();
+    }
+
     cout << "Press enter to exit" << endl;
     cin.get();
 

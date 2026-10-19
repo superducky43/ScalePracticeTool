@@ -19,7 +19,6 @@ Scale::Scale(string name, string root)
     this->root = root;
 }
 
-/*
 void Scale::generateRandom()
 {
     std::ifstream file("data/scales.json"); 
@@ -49,10 +48,6 @@ void Scale::generateRandom()
     int rootIndex = rand() % possibleRoots.size();
     int scaleTypeIndex = rand() % possibleScales.size();
 
-    this->root = possibleRoots[rootIndex];
-<<<<<<< HEAD
-    //this->name = 
-=======
     this->name = possibleScaleNames[scaleTypeIndex];
     formula = possibleScales.at(this->name);
 
@@ -63,6 +58,4 @@ void Scale::generateRandom()
     cout << endl;
 
     this->formula = formula;
->>>>>>> 98ddd934ef9e0984a7cd91960e5bcae282bd39d1
 }
-*/
