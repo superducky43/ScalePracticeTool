@@ -9,6 +9,19 @@
 using json = nlohmann::json;
 using namespace std;
 
+//TODO:
+//When making a new scale, the scale will make a vector with a certain amount of notes, each starting out as the root
+//Then it will increment each of these notes as much as is specificed in the formula
+//Logic for naming notes must also be done in the scale class as the relationships of the notes in between each other is important
+//  1: check if the note is natural
+//  (in any case, increment the letter name of the note by a letter)
+//  2: if not:
+//  3:      is it flat, sharp, double flat or double sharp?
+//  4:      then check how far the next note is in the scale
+//          depending on how far it is and if it is flat, sharp, double flat or double sharp, change the next modifier (#,b etc)
+//          of the note accordingly
+//It is important all the notes are initialized with the name of the root
+
 Scale::Scale()
 {
 }

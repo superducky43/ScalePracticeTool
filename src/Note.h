@@ -9,6 +9,8 @@ class Note
         int value = 1;
 
     public:
+        Note(string name);
+
         void operator++();        
         void operator--();
 
